@@ -1,0 +1,14 @@
+In order to compile caDNAno, you'll need Adobe Flash CS3 with the Adobe AIR extension installed: http://www.adobe.com/products/air/develop/flash/.
+
+It is probably necessary to edit the "AIR - Application and Installer Settings" for cadnano.fla.
+
+1. Use custom application descriptor file: cadnano.xml
+
+2. Digital signature: you can either create a certificate or just prepare an unsigned intermediate file to sign later.
+
+3. Make sure you have correct paths for Included files:
+cadnano.swf
+cadnano.xml
+icons
+
+(If the icons folder is not included, the caDNAno will load as a blank screen)
