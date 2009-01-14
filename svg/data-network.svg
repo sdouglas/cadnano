@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg11300" sodipodi:docname="network-wireless.svg" xmlns:svg="http://www.w3.org/2000/svg" inkscape:export-ydpi="90.000000" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" inkscape:version="0.43+devel" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:version="0.32" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" inkscape:export-xdpi="90.000000" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/devices" inkscape:export-filename="/home/jimmac/Desktop/wi-fi.png"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
+	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<sodipodi:namedview  fill="#eeeeec" stroke="#ef2929" id="base" inkscape:window-y="115" inkscape:window-x="198" inkscape:window-height="875" inkscape:window-width="876" inkscape:showpageshadow="false" inkscape:document-units="px" inkscape:grid-bbox="true" showgrid="false" inkscape:current-layer="layer1" inkscape:cy="22.612601" inkscape:cx="23.818102" inkscape:zoom="7.0000000" borderopacity="0.25490196" bordercolor="#666666" pagecolor="#ffffff" inkscape:pageopacity="0.0" inkscape:pageshadow="2">
+	</sodipodi:namedview>
+<g>
+	
+		<radialGradient id="rect11518_1_" cx="-834.9287" cy="569.1045" r="20.5312" gradientTransform="matrix(1.9951 0 0 -1.9951 1689.2312 1170.8872)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#DCDCDC"/>
+	</radialGradient>
+	<path id="rect11518" fill="url(#rect11518_1_)" stroke="#9B9B9B" stroke-linejoin="bevel" stroke-miterlimit="10" d="M8.924,3.136
+		h29.152c3.013,0,5.455,2.442,5.455,5.455v29.153c0,3.012-2.442,5.455-5.455,5.455H8.924c-3.013,0-5.455-2.443-5.455-5.455V8.59
+		C3.469,5.578,5.911,3.136,8.924,3.136z"/>
+	<path id="rect11528" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" d="
+		M8.895,4.318h29.211c2.344,0,4.243,1.899,4.243,4.243v29.211c0,2.343-1.899,4.242-4.243,4.242H8.895
+		c-2.343,0-4.242-1.899-4.242-4.242V8.561C4.652,6.218,6.552,4.318,8.895,4.318z"/>
+</g>
+<g>
+	
+		<radialGradient id="path11506_1_" cx="-791.1182" cy="45.6582" r="6.5659" gradientTransform="matrix(1.5677 0 0 -0.5306 1263.769 61.7104)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#000000"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	
+		<path id="path11506" sodipodi:ry="2.2223356" sodipodi:cy="44.565483" sodipodi:rx="6.5659914" sodipodi:cx="30.203562" sodipodi:type="arc" opacity="0.1765" fill="url(#path11506_1_)" enable-background="new    " d="
+		M33.794,37.483c0,1.925-4.609,3.484-10.294,3.484c-5.686,0-10.294-1.56-10.294-3.484C13.206,35.56,17.814,34,23.5,34
+		C29.185,34,33.794,35.56,33.794,37.483z"/>
+	<g>
+		<path id="path11486" sodipodi:nodetypes="ccc" fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="10" d="
+			M18.857,38.567l4.596-14.596l5.315,14.596"/>
+		<path id="path11516" fill="none" stroke="#000000" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" d="
+			M22.272,28.185l2.908,0.854l-4.276,2.907l5.815,1.539l-7.184,2.908l8.553,0.855"/>
+	</g>
+	
+		<path id="path11482" sodipodi:ry="3.3335035" sodipodi:cy="18.604561" sodipodi:rx="3.3335035" sodipodi:cx="27.577164" sodipodi:type="arc" fill="#0066CC" d="
+		M25.798,23.504c0,1.269-1.029,2.298-2.298,2.298c-1.27,0-2.298-1.029-2.298-2.298c0-1.269,1.028-2.297,2.298-2.297
+		C24.769,21.207,25.798,22.235,25.798,23.504L25.798,23.504z"/>
+</g>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="8" y="7.999" width="31" height="31.002">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="8" y="7.999" width="31" height="31.002" id="SVGID_1_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			<radialGradient id="SVGID_2_" cx="23.3745" cy="5.7295" r="72.4885" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.0546" style="stop-color:#FCFCFC"/>
+				<stop  offset="0.0995" style="stop-color:#F2F2F2"/>
+				<stop  offset="0.1411" style="stop-color:#E0E0E0"/>
+				<stop  offset="0.1806" style="stop-color:#C8C8C8"/>
+				<stop  offset="0.2186" style="stop-color:#A9A9A9"/>
+				<stop  offset="0.2556" style="stop-color:#828282"/>
+				<stop  offset="0.2917" style="stop-color:#555555"/>
+				<stop  offset="0.3262" style="stop-color:#212121"/>
+				<stop  offset="0.3462" style="stop-color:#000000"/>
+			</radialGradient>
+			<path fill="url(#SVGID_2_)" d="M23.499,41.001c-9.649,0-17.5-7.852-17.5-17.5c0-9.649,7.851-17.502,17.5-17.502
+				c9.65,0,17.503,7.853,17.503,17.502C41.002,33.149,33.148,41.001,23.499,41.001L23.499,41.001z"/>
+		</g>
+	</mask>
+	<g mask="url(#SVGID_1_)">
+		<g>
+			<path fill="#0066CC" d="M23.5,7.999C14.939,7.999,8,14.939,8,23.5c0,8.562,6.939,15.501,15.5,15.501S39,32.062,39,23.5
+				C39,14.939,32.061,7.999,23.5,7.999z M23.5,37.396c-7.674,0-13.896-6.221-13.896-13.896S15.826,9.604,23.5,9.604
+				S37.395,15.825,37.395,23.5S31.174,37.396,23.5,37.396z"/>
+		</g>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="14.875" y="14.874" width="17.25" height="17.251">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="14.875" y="14.874" width="17.25" height="17.251" id="SVGID_3_">
+		<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+			<g>
+				<radialGradient id="SVGID_4_" cx="23.4302" cy="13.6108" r="40.3375" gradientUnits="userSpaceOnUse">
+					<stop  offset="0" style="stop-color:#FFFFFF"/>
+					<stop  offset="0.0633" style="stop-color:#FCFCFC"/>
+					<stop  offset="0.1153" style="stop-color:#F2F2F2"/>
+					<stop  offset="0.1635" style="stop-color:#E0E0E0"/>
+					<stop  offset="0.2092" style="stop-color:#C8C8C8"/>
+					<stop  offset="0.2533" style="stop-color:#A9A9A9"/>
+					<stop  offset="0.2962" style="stop-color:#828282"/>
+					<stop  offset="0.338" style="stop-color:#555555"/>
+					<stop  offset="0.378" style="stop-color:#212121"/>
+					<stop  offset="0.4011" style="stop-color:#000000"/>
+				</radialGradient>
+				<path fill="url(#SVGID_4_)" d="M23.499,33.238c-5.369,0-9.738-4.368-9.738-9.737c0-5.37,4.369-9.74,9.738-9.74
+					c5.371,0,9.74,4.37,9.74,9.74C33.239,28.87,28.87,33.238,23.499,33.238L23.499,33.238z"/>
+			</g>
+		</g>
+	</mask>
+	<g mask="url(#SVGID_3_)">
+		<g>
+			<path fill="#0066CC" d="M23.5,14.874c-4.764,0-8.625,3.862-8.625,8.625c0,4.766,3.861,8.626,8.625,8.626s8.625-3.86,8.625-8.626
+				C32.125,18.736,28.264,14.874,23.5,14.874z M23.5,30.436c-3.831,0-6.935-3.105-6.935-6.937c0-3.83,3.104-6.935,6.935-6.935
+				c3.83,0,6.934,3.104,6.934,6.935C30.434,27.33,27.33,30.436,23.5,30.436z"/>
+		</g>
+	</g>
+</g>
+</svg>

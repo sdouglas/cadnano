@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>caDNAno - Tool & Button Reference</title>
+
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+	<!--[if IE]><link rel="stylesheet" href="../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<style type="text/css" media="screen">
+	</style>
+</head>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5094923-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<body>
+	<div class="container">
+	<div class="span-16 prepend-1 last">
+		<h3>caDNAno Tool Button Reference</h3>
+	</div>
+
+	<div class="span-16 prepend-1 last">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<caption><em>Slice Panel Buttons</em></caption>
+			<thead>
+				<tr>
+					<th class="span-1">icon</th>
+					<th class="span-2">name</th>
+					<th class="span-8 last">function</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="../icons/slice-edit.png"></td>
+					<td>Edit Tool</td>
+					<td><b>Click</b> a helix in the Slice Panel to add scaffold at the current position of the Slice Bar.<br>
+						<b>Shift+Click</b> an existing helix to add staple sequence at the current position of the Slice Bar.
+					</td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/slice-zoom.png"></td>
+					<td>Zoom Tool</td>
+					<td><b>Click</b> to zoom in.<br>
+						<b>Shift+Click</b> to zoom out.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/slice-transform.png"></td>
+					<td>Move Tool</td>
+					<td><b>Click+Drag</b> to reposition the Slice helices.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/slice-go-first.png"></td>
+					<td>First-Slice Button</td>
+					<td><b>Click</b> button to move Slice Bar to left-most position.</td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/slice-go-last.png"></td>
+					<td>Last-Slice Button</td>
+					<td><b>Click</b> button to move Slice Bar to right-most position.</td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/slice-renumber.png"></td>
+					<td>Renumber Button</td>
+					<td><b>Click</b> button to renumber helices according to their current order in the Path panel.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="span-16 prepend-1 last">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<caption><em>Path Panel Buttons</em></caption>
+			<thead>
+				<tr>
+					<th class="span-1">icon</th>
+					<th class="span-2">name</th>
+					<th class="span-8 last">function</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="../icons/path-edit.png"></td>
+					<td>Edit Tool</td>
+					<td>
+						<b>Click</b> on a crossover to add or remove.<br>
+						<b>Click+Drag</b> on a breakpoint to reposition.<br>
+						<b>Shift+Click</b> on one of two adjacent breakpoints to ligate a nick.<br>
+						<b>Alt+Click</b> on a breakpoint to move breakpoint to its boundary.<br> 
+						<b>Alt+Shift+Click</b> on Slice Bar to move all breakpoints to their respective boundaries.<br> 
+					</td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-zoom.png"></td>
+					<td>Zoom Tool</td>
+					<td><b>Click</b> to zoom in.<br>
+						<b>Shift+Click</b> to zoom out.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-transform.png"></td>
+					<td>Move Tool</td>
+					<td><b>Click and Drag</b> to reposition the Path canvas.<br>
+						Tip: use <b>arrow keys</b> &larr; &uarr; &darr; &rarr;  to avoid switching back and forth to this tool.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-break.png"></td>
+					<td>Break Tool</td>
+					<td><b>Click</b> to install a 3' nick in scaffold or staple.<br>
+					</td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-erase.png"></td>
+					<td>Erase Tool</td>
+					<td><b>Click</b> to remove continuous stretch of scaffold or staple (up to any breakpoint or crossover).
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-force-xover.png"></td>
+					<td>Force Crossover Tool</td>
+					<td><b>Click</b> to once to select start position, then <b>click</b> again to select end position.  Confirm in dialog box to install a non-standard crossover.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-loop.png"></td>
+					<td>Loop Tool</td>
+					<td>
+						<b>Click</b> on a scaffold strand to install a loop, which causes extra scaffold (and optionally staple) bases to be included at a that position. <br>
+						<b>Click</b> on a staple strand to install a specific sequence.<br>
+						<b>Double-Click</b> with <u>Edit Tool</u> to remove a loop.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-skip.png"></td>
+					<td>Skip Tool</td>
+					<td><b>Click</b> on a scaffold position to install a "skip", which causes scaffold and staple sequence to not be installed at the specific position.  <br>
+						<b>Double-Click</b> with <u>Edit Tool</u> to remove a skip.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-paint.png"></td>
+					<td>Paint Tool</td>
+					<td><b>Click</b> on a staple to set to selected color.<br>
+						Use color picker to select specific a color.<br>
+						Use keyboard shortcut "<b>p</b>" to cycle through colors.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-autostaple.png"></td>
+					<td>AutoStaple Button</td>
+					<td><b>Click</b> to install a default set of staples. It is best to complete the scaffold design before using the AutoStaple button. <br>Note: Staples can be installed manually using the <u>Slice Panel Edit Tool</u>. 
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-sequence.png"></td>
+					<td>Add Sequence Tool</td>
+					<td><b>Click</b> on a <u>scaffold 5' breakpoint</u> to apply a scaffold sequence to a design.  Sequences are <b>not</b> currently stored, so this tool must be used whenever an existing design is loaded.  <br>
+						M13 scaffold hairpins are highlighted when sequence is applied.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/path-svg.png"></td>
+					<td>Export SVG Button</td>
+					<td><b>Click</b> to export an SVG diagram of the path panel.  Sequences will be included if previously applied with the <u>Add Sequence Tool</u>.
+					 </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="span-16 prepend-1 last">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<caption><em>Render3D Panel Buttons</em></caption>
+			<thead>
+				<tr>
+					<th class="span-1">icon</th>
+					<th class="span-2">name</th>
+					<th class="span-8 last">function</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="../icons/render3d-zoom.png"></td>
+					<td>Zoom Button</td>
+					<td><b>Click</b> to zoom in.<br>
+						<b>Shift+Click</b> to zoom out.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/render3d-transform.png"></td>
+					<td>Move Tool</td>
+					<td><b>Click+Drag</b> to reposition the 3D model. <br>
+						<b>Unselect</b> the tool to return to Examine mode.
+					 </td>
+				</tr>
+				<tr><td colspan="3"><hr></td></tr>
+				<tr>
+					<td><img src="../icons/render3d-x3d.png"></td>
+					<td>X3D Export Button</td>
+					<td><b>Click</b> to export an X3D cylinder model of the scaffold arrangement.</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="span-15 push-1 box">
+		<h4>Notes</h4>
+			<ul>
+				<li><b>Click</b> always refers to a Left-Mouse-Button click.</li>
+				<li><u>Buttons</u> are clicked for use, while <u>Tools</u> must be selected before use in their appropriate panel.</li>
+			</ul>
+	</div>
+
+
+		</div>
+	</body>
+	</html>

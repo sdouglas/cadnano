@@ -1,0 +1,57 @@
+//
+//  Icon License file
+//
+//  Created by Shawn on 2007-12-16.
+//
+
+
+Most of these icons are from or derived from the Tango Desktop Project:
+
+http://tango.freedesktop.org/Tango_Desktop_Project
+
+and are licensed under the Creative Commons Attribution Share-Alike license:
+
+http://creativecommons.org/licenses/by-sa/2.5/
+
+----
+
+Additional background (please correct me if mistakes are found):
+
+Several of the icons I've used were originally created as part of a
+Tango Friday marathon icon creation session:
+
+http://tango.freedesktop.org/Tango_Fridays#Friday_March_30th
+
+According to this blog entry:
+
+http://blog.vybiral.info/2007/03/30/gtk-stock-icons-marathon-is-over/
+
+these icons were created by the following artists:
+
+Jakub Steiner, Steven Garrity, Tuomas Kuosmanen, Andreas Nilsson, Lapo Calamandrei, Josef Vybiral, Hylke Bons, Charavel Olivier, Kalle Persson and David Prieto.
+
+I've also used icons from other Tango sets, including Art Libre, Tango OpenOffice, and Tango Gnome Icon Theme (git2).
+
+Jakub Steiner (Jimmacs)  http://jimmac.musichall.cz/
+
+http://jimmac.musichall.cz/i.php  (main index)
+http://jimmac.musichall.cz/i.php?i=gtk-stock
+http://jimmac.musichall.cz/i.php?i=Tango-Apps
+http://jimmac.musichall.cz/i.php?i=Tango-Art-Libre
+http://jimmac.musichall.cz/i.php?i=Tango-OOo
+
+Additional Downloads:
+http://webcvs.freedesktop.org/tango/
+http://www.gnome-look.org/content/show.php/Tango+OpenOffice?content=54799
+
+
+----
+
+The "draw path" and "erase" icons are based on Vu Tran & Min Tran's work 
+
+See:
+http://min.frexy.com/article/icon_design_tutorial_on_smashing_magazine/
+
+and:
+http://www.smashingmagazine.com/2008/06/06/icon-design-tutorial-drawing-a-pencil-icon/
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application 
+	xmlns="http://ns.adobe.com/air/application/1.1"
+	minimumPatchLevel="0">
+<!-- AIR Application Descriptor File. See http://www.adobe.com/go/air_1.0_application_descriptor. -->
+	<id>edu.harvard.med.cadnano</id>
+	<name>
+		<text xml:lang="en">cadnano</text>
+	</name>
+	<version>0.2</version>
+	<filename>cadnano</filename>
+	<description>
+		<text xml:lang="en">cadnano is open-source software for design of three-dimensional DNA origami nanostructures.</text>
+	</description>
+	<copyright>Copyright (c) 2008 Shawn M. Douglas</copyright>
+	<initialWindow>
+		<content>cadnano.swf</content>
+		<title>caDNAno</title>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+		<width>1824</width>
+		<height>1140</height>
+		<x>40</x>
+		<y>40</y>
+	</initialWindow>
+	<programMenuFolder>caDNAno/caDNAno</programMenuFolder>
+	<icon>
+		<image16x16>www/source/cadnano_16.png</image16x16>
+		<image32x32>www/source/cadnano_32.png</image32x32>
+		<image48x48>www/source/cadnano_48.png</image48x48>
+		<image128x128>www/source/cadnano_128.png</image128x128>
+	</icon>
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+</application>

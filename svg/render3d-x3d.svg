@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	
+		<radialGradient id="svg_textbox_background_1_" cx="307.3477" cy="-369.291" r="47.7665" gradientTransform="matrix(1 0 0 -1 -282 -325)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#6E6E6E"/>
+		<stop  offset="1" style="stop-color:#171717"/>
+		<stop  offset="1" style="stop-color:#171717"/>
+	</radialGradient>
+	<rect id="svg_textbox_background" x="4.167" y="3.625" fill="url(#svg_textbox_background_1_)" width="40.666" height="40.666"/>
+	
+		<linearGradient id="svg_textbox_reflection_1_" gradientUnits="userSpaceOnUse" x1="7367.7432" y1="9681.0996" x2="7367.7432" y2="9373.46" gradientTransform="matrix(0.08 0 0 0.08 -564.9199 -744.9999)">
+		<stop  offset="0" style="stop-color:#8D8D8D"/>
+		<stop  offset="0.549" style="stop-color:#868686"/>
+		<stop  offset="1" style="stop-color:#DDDDDD"/>
+		<stop  offset="1" style="stop-color:#DDDDDD"/>
+	</linearGradient>
+	<path id="svg_textbox_reflection" fill="url(#svg_textbox_reflection_1_)" d="M8.205,4.877h32.59c1.215,0,2.207,1.632,2.207,3.627
+		v18.542c-12.503,2.442-22.332-9.781-35.416-9.781c-0.532,0-1.061,0.014-1.588,0.041V8.503C5.998,6.51,6.991,4.877,8.205,4.877
+		L8.205,4.877z"/>
+	<path id="svg_text" display="none" fill="#FFFFFF" d="M30.125,14.811l-3.977,19.204h-3.296l-3.977-19.204h3.296l2.328,11.246
+		l2.33-11.246H30.125z M35.747,22.766h5.624v5.624h0.003c0,3.105-2.52,5.626-5.625,5.626c-3.106,0-5.626-2.521-5.626-5.626l0,0
+		v-7.953l0,0c0-3.106,2.519-5.625,5.624-5.625c3.107,0,5.624,2.52,5.624,5.625h-3.296c0-1.287-1.041-2.329-2.328-2.329
+		s-2.328,1.042-2.328,2.329v7.953c0,1.286,1.042,2.329,2.328,2.329c1.287,0,2.328-1.042,2.328-2.329l0,0v-2.328h-2.328V22.766
+		L35.747,22.766z M33.419,28.39L33.419,28.39z M9.274,24.413c-1.018-1.018-1.647-2.424-1.647-3.978c0-3.104,2.52-5.624,5.625-5.624
+		c3.105,0,5.624,2.52,5.624,5.624h-3.295c0-1.286-1.043-2.329-2.33-2.329s-2.33,1.043-2.33,2.329c0,0.644,0.26,1.225,0.682,1.647h0
+		c0.422,0.422,1.004,0.682,1.647,0.682v0.001c1.553,0,2.958,0.63,3.976,1.647l0,0c1.017,1.017,1.647,2.423,1.647,3.977
+		c0,3.104-2.518,5.625-5.624,5.625c-3.105,0-5.625-2.521-5.625-5.625h3.294c0,1.286,1.044,2.329,2.33,2.329
+		c1.287,0,2.33-1.043,2.33-2.329c0-0.644-0.261-1.224-0.681-1.647h-0.001c-0.421-0.421-1.004-0.683-1.646-0.683l0,0
+		C11.699,26.06,10.292,25.43,9.274,24.413L9.274,24.413z"/>
+</g>
+<text transform="matrix(0.4636 0 0 1 8.0254 40.707)" fill="#FFFFFF" font-family="'HelveticaNeue-CondensedBold'" font-size="44.6737">X3D</text>
+</svg>
