@@ -1059,8 +1059,29 @@ package edu.harvard.med.cadnano.data {
                 scafLen = vs.scaf.length;
                 for (pos = 0; pos < scafLen; pos++) {
                     token = vs.scaf[pos];
-                    if (token.sequence.length == 0 && startNewHorizSection == false) {
-                        horizScaffoldSection += " ";
+                    if ((token.sequence.length == 0 || token.sequence == "?") && startNewHorizSection == false) {
+                         startNewHorizSection = true;
+                         if (horizScaffoldSection != "") {
+                            if (((token.prev_strand == vs.number && vs.scaf[token.prev_pos].sequence != "?" && vs.scaf[token.prev_pos].sequence.length != 0) && 
+                                  this.getInternalCoordsOfScaffoldToken(vs.scaf[token.prev_pos])[0] % 2 == 1) || 
+                                ((token.next_strand == vs.number && vs.scaf[token.next_pos].sequence != "?" && vs.scaf[token.next_pos].sequence.length != 0) && 
+                                  this.getInternalCoordsOfScaffoldToken(vs.scaf[token.next_pos])[0] % 2 == 1)) {
+                                scale = -1;
+                                reversedString = "";
+                                for (i = horizScaffoldSection.length - 1; i >= 0; i--) {
+                                    reversedString += horizScaffoldSection.charAt(i);
+                                }
+                                horizScaffoldSection = reversedString;
+                                xShift = horizScaffoldSection.length*this.baseWidth - 2;
+                                yShift = 2;
+                            } else {
+                                scale = 1;
+                                xShift = 0 + 2;
+                                yShift = -2;
+                            }
+                            this.sequenceStringScaf += printf(horizTemplate, startCoords[0]+xShift, startCoords[1] + yShift, scale , drawPath.getHexColorString(token.color), horizScaffoldSection);
+                            continue;
+                        }
                     } else if (token.sequence != "?" && token.sequence.length != 0) {
                         if (startNewHorizSection == true) {
                             horizScaffoldSection = "";
