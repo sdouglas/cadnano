@@ -224,7 +224,7 @@ package edu.harvard.med.cadnano.drawing {
             nsLabel.height = tf.height = 20;
             nsLabel.width = tf.width = 245;
             sliceBarAlertSprite.addChild(nsLabel);
-            nsLabel.text = "Extend grid by:  (21 x                     ) bases.";
+            nsLabel.text = "Extend width by (21x               ) bases.";
             nsLabel.setStyle("textFormat", new TextFormat("_sans", 14));
             numericStepper = new NumericStepper();
             numericStepper.stepSize = 1;
