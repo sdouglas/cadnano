@@ -7,7 +7,7 @@
 	<name>
 		<text xml:lang="en">cadnano</text>
 	</name>
-	<version>0.2.2</version>
+	<version>0.2.3</version>
 	<filename>cadnano</filename>
 	<description>
 		<text xml:lang="en">cadnano is open-source software for design of three-dimensional DNA origami nanostructures.</text>

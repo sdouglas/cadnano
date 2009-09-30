@@ -711,7 +711,13 @@ package edu.harvard.med.cadnano.drawing {
             }
         }
         
-        /* Called by PathTools.createLoopHandler() or DrawPath.loadHandles() to add a scaffold loop. */
+        /* Called by DrawPath.loadHandles() to load a scaffold loop when reading from a file. */
+        public function loadLoopHandle(pos:int, loopSize:int):void {
+            var loopHandle:LoopHandle = new LoopHandle(this.vstrand, pos, loopSize);
+            this.loopLayer.addChild(loopHandle);
+        } // end of loadLoopHandle()
+        
+        /* Called by PathTools.createLoopHandler() to add a scaffold loop from user input. */
         public function addLoopHandle(pos:int, loopSize:int):void {
             var i:int;
             var loopHandle:LoopHandle
@@ -728,8 +734,15 @@ package edu.harvard.med.cadnano.drawing {
                 this.drawPath.updateStap(true);
             }
         } // end of addLoopHandle()
+
+        /* Called by DrawPath.loadHandles() to load a scaffold skip from a file. */
+        public function loadSkipHandle(pos:int):void {
+            var skipHandle:SkipHandle = new SkipHandle(this.vstrand, pos);
+            this.skipLayer.addChild(skipHandle);
+        } // end of loadSkipHandle()
+
         
-        /* Called by PathTools.createSkipHandler() or DrawPath.loadHandles() to add a scaffold skip. */
+        /* Called by PathTools.createSkipHandler() to add a scaffold skip from user input. */
         public function addSkipHandle(pos:int):void {
             var i:int;
             var skipHandle:SkipHandle;

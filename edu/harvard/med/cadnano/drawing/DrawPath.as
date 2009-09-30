@@ -92,7 +92,7 @@ package edu.harvard.med.cadnano.drawing {
         #7300de =  7536862 = (115,0,222)
         #b8056c = 12060012 = (184,5,108)
         #333333 =  3355443 = (51,51,51)
-        
+        # 16204552|16225054|11184640|5749504|29184|243362|1507550|7536862|12060012|3355443
         0x888888 =  8947848 = (136,136,136)
         */
         
@@ -442,12 +442,12 @@ package edu.harvard.med.cadnano.drawing {
                     
                     // LOOP HANDLES
                     if (vs.getLoop(i) != 0) {
-                        vs.drawVstrand.addLoopHandle(i, vs.getLoop(i));
+                        vs.drawVstrand.loadLoopHandle(i, vs.getLoop(i));
                     }
                     
                     // SKIP HANDLES
                     if (vs.getSkip(i) != 0) {
-                        vs.drawVstrand.addSkipHandle(i);
+                        vs.drawVstrand.loadSkipHandle(i);
                     }
                 }
             }
